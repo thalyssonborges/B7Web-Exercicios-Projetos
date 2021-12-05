@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-color: blue;
+    margin: 0;
+    padding: 0;
+}
+.menu a{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+.menu li{
+    list-style: none;
+    display: inline-block;
+}
+.menu a:hover{
+    color: blue;
+    background-color: white;
+}
