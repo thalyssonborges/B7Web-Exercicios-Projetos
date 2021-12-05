@@ -1,0 +1,23 @@
+td{
+    padding:10px;
+    border: 1px solid #ccc;
+}
+.coluna-externa-esquerda{
+    border-left: 1px solid black;
+}
+.coluna-externa-direita{
+    border-right: 1px solid black;
+}
+.coluna-externa-baixo{
+    border-bottom: 1px solid black;
+}
+table ,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+/*O desafio no geral foi bem fácil, só tive
+um pouco de dificuldade com os espaços entre as
+células onde precisei voltar rapidamente nos
+estudos para relembrar o uso da border-collapse*/
