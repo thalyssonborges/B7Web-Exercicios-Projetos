@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    text-align: center;
+    border: 1px solid black;
+}
+.horario1-amarelo, .horario2-verde, .horario3-roxo{
+    text-align: right;
+}
+.dias{
+    text-align: left;
+    margin: 0;
+    padding: 5px;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.horario1-amarelo{
+    background-color: rgb(240, 240, 171);
+}
+.horario2-verde{
+    background-color: rgb(202, 255, 202);
+}
+.horario3-roxo{
+    background-color: rgba(151, 163, 218, 0.432);
+}
