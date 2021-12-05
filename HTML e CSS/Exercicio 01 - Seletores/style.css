@@ -1,0 +1,16 @@
+.header{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+.header + div{
+    background-color: red;
+    color: black;
+}
+.header p{
+    font-size: 30px;
+}
+
+div{
+    color: green;
+}
