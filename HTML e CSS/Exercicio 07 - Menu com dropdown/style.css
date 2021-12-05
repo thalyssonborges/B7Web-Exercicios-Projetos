@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.menu , .submenu{
+    background-color: rgb(59, 134, 231);
+}
+.menu a{
+    list-style: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li:hover{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.menu li:hover a{
+    color: yellow;
+}
+
+.submenu{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.menu li:hover .submenu li{
+    display: block;
+}
