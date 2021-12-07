@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    padding: 10px;
+}
+h3{
+    padding-left: 10px;
+}
+header{
+    height: 100px;
+    width: 100%;;
+    text-align: center;
+    line-height: 100px;
+    background-color: orange;
+}
+main{
+    margin-top: 20px;
+}
+.cidade{
+    width: 25%;
+    float: left;
+}
+@media only screen and (min-width:500px) and (max-width:1000px){
+    .cidade{
+        width: 50%;
+    }
+}
+@media only screen and (max-width:500px){
+    .cidade{
+        width: 100%;
+    }
+}
