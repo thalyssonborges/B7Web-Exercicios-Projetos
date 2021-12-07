@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*MENU*/
+.topo{
+    background-color: #353535;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.espaçamento{
+    width:75%;
+    margin:auto;
+}
+.topo-menu{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+.logomarca{
+    color: white;  
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 50px;   
+    letter-spacing: 3px;
+}
+.menu li{
+    display: inline;
+    list-style: none;
+}
+.menu li a{
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    padding: 0 15px;
+}
+.menu li a:hover{
+    background-color:#3480c1;
+}
+/*BANNER*/
+.banner{
+    background-color: #3480c1;
+    height: 300px;
+    justify-content: space-between;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-titulo{
+    margin-top: 60px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+.banner-titulo h1{
+    font-size: 55px;
+    letter-spacing: 5px;
+}
+.banner-titulo h5{
+    font-size: 23px; 
+}
+.banner-imagem{
+    margin-right: 90px;
+}
+.btn-acessar-produto{
+    margin-top: 25px;
+    padding: 20px 30px;
+    color: black;
+    width: 310px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffc001;
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.btn-acessar-produto:hover{
+    cursor: pointer;
+}
+.main h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.main-cards{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+/* Footer*/
+footer{
+    margin-top: 40px;
+    background-color: #3480c1;
+    color: white;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
